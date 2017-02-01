@@ -1,0 +1,48 @@
+body { 
+    background-color: black;
+
+}
+
+h1 { 
+
+    font-size: 150;
+    text-align: center;
+    position: centered;
+    font-family: cursive;
+    background-color:white; 
+    color: #202020;
+    background-color: #2d2d2d;
+    letter-spacing: .1em;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+}
+
+h2 {
+	position:Relative;
+	top:13%;
+    Bottom:50%;
+}
+
+p { 
+	  font-size: 25px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+text-indent: 50px;
+font-family: cursive;
+text-align: center;
+
+
+
+}
+
+
+.one { 
+    position: float left;
+    color:red;
+
+
+
+
+ }
