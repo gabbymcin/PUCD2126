@@ -1,17 +1,18 @@
 body { 
-    background-color: black;
+    background: linear-gradient(#FF0E0E, #E4E5F2, #041AF6);
+
 
 }
 
 h1 { 
 
-    font-size: 150;
+    font-size: 330%;
     text-align: center;
     position: centered;
     font-family: cursive;
-    background-color:white; 
-    color: #202020;
-    background-color: #2d2d2d;
+   
+    color: black;
+
     letter-spacing: .1em;
     text-shadow: 
       -1px -1px 1px #111, 
@@ -19,24 +20,39 @@ h1 {
 }
 
 h2 {
-	position:Relative;
-	top:13%;
-    Bottom:50%;
+
+    color:white;
+    font-size: ;
+    position:relative;
+    top:-123.1%;
+    left:1%;
+    font-family: cursive;
+     opacity: 0.7;
 }
 
 p { 
-	  font-size: 25px;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-text-indent: 50px;
-font-family: cursive;
-text-align: center;
+	 font-size: 25px;
+     color:white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
-
+    font-family: cursive;
+    text-align: center;
 
 }
 
+
+    p:hover { 
+    background-color: white;
+}
+
+
+
+
+p:first-child { 
+    text-align: justify;
+    top:-100%;
+ }
 
 .one { 
     position: float left;
