@@ -1,0 +1,86 @@
+body {
+background-color:orange;
+
+}
+
+
+h1 {
+font-size:100px;
+text-align: center;
+color:white;
+font-family: Futura;
+}
+
+h2 {
+text-align: center;
+color:white;
+font-size:70px;
+position:relative;
+top:40%;
+font-family: Futura;
+}
+
+li {
+
+color:white;
+font-family:Futura;
+position:centered;
+}
+
+.pone { 
+ text-align: justify;
+ color:white;
+ height: 100px;
+ width: 350px;
+ position:centered;
+ font-family: Futura;
+
+}
+
+ .ptwo { 
+ text-align: justify;
+ color:white;
+ height: 100px;
+ width: 350px;
+ position:centered;
+ bottom:-300%;
+ font-family: Futura;
+
+ }
+
+
+ .pthree {
+  text-align: justify;
+   color:white;
+    height: 100px;
+    width: 350px;
+    position:centered;
+    bottom:30%;
+    font-family: Futura;
+
+
+ }
+
+ .zhu {
+color:white;
+ }
+
+
+
+
+
+.pone:hover {
+  opacity:0;
+  transition:opacity 7s linear;*
+  animation-iteration-count: infinite;
+}
+
+.ptwo:hover {
+  opacity:0;
+  transition:opacity 1s linear;*
+}
+
+ .pthree:hover {
+  opacity:0;
+  transition:opacity 1s linear;* 
+}
