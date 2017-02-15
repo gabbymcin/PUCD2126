@@ -1,0 +1,152 @@
+body { 
+	background: linear-gradient(white, white, black);
+   
+}
+
+h1 {
+
+text-align: center;
+
+
+
+}
+
+
+.rectangle {
+	width: 200px;
+	height: 350px;
+	background: black;
+}
+
+#rectangle:active {
+    width: 70px;
+    height: 74px; 
+background-image: <img src="reconeimage.jpg">
+ }
+
+.rectwo {
+	width:200px;
+	height:350px;
+	background:black;
+	position:relative;
+	right:-25%;
+
+}
+
+.recthree {
+	width:200px;
+	height:350px;
+	background:red;
+	position:relative;
+	right:-55%;
+	bottom:1%;
+
+}
+
+.recfour {
+	width:200px;
+	height:350px;
+	background:black;
+	position:relative;
+	right:-20%;
+
+}
+
+.recfive {
+	width:200px;
+	height:350px;
+	background:black;
+	position:relative;
+	right:-67%;
+
+}
+
+.recsix {
+	width:200px;
+	height:350px;
+	background:red;
+	position:relative;
+	right:-30%;
+
+}
+
+.recseven {
+	width:200px;
+	height:350px;
+	background:black;
+	position:relative;
+	right:-65%;
+
+}
+
+.receight {
+	width:200px;
+	height:350px;
+	background:black;
+	position:relative;
+	right:-20%;
+
+}
+
+.recnine {
+	width:200px;
+	height:350px;
+	background:black;
+	position:relative;
+	right:-70%;
+
+}
+
+.recten {
+	width:200px;
+	height:350px;
+	background:black;
+	position:relative;
+	right:-47%;
+
+}
+
+.receleven {
+	width:200px;
+	height:350px;
+	background:green;
+	position:relative;
+	right:-1%;
+
+}
+
+.rectwelve {
+	width:200px;
+	height:350px;
+	background:black;
+	position:relative;
+	right:-30%;
+
+}
+
+.recthirteen {
+	width:200px;
+	height:350px;
+	background:black;
+	position:relative;
+	right:-70%;
+
+}
+
+.recfourteen {
+	width:200px;
+	height:350px;
+	background:black;
+	position:relative;
+	right:-35%;
+
+}
+
+.recfifteen {
+	width:200px;
+	height:350px;
+	background:black;
+	position:relative;
+	right:-10%;
+
+}
