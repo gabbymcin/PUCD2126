@@ -3,9 +3,15 @@ body {
    
 }
 
+
+@fontface { 
+font-family: 'Rock Salt', cursive;
+ }
+
 h1 {
 
-text-align: center;
+
+font: normal 55px "Rock Salt", sans-serif; text-align: center; margin: 110px; color: black; }
 
 
 
@@ -18,11 +24,7 @@ text-align: center;
 	background: black;
 }
 
-#rectangle:active {
-    width: 70px;
-    height: 74px; 
-background-image: <img src="reconeimage.jpg">
- }
+
 
 .rectwo {
 	width:200px;
@@ -32,6 +34,13 @@ background-image: <img src="reconeimage.jpg">
 	right:-25%;
 
 }
+
+.rectwo:hover {
+    background: url(palms.jpg);
+    height: 350px;
+    width: 200px;
+}
+
 
 .recthree {
 	width:200px;
@@ -43,6 +52,13 @@ background-image: <img src="reconeimage.jpg">
 
 }
 
+.recthree:hover {
+    background: url(eva.jpg);
+    max-width:100%;
+    max-height:100%;
+}
+
+
 .recfour {
 	width:200px;
 	height:350px;
@@ -52,6 +68,15 @@ background-image: <img src="reconeimage.jpg">
 
 }
 
+.recfour:hover {
+    background: url(cuffs.jpg);
+    max-width:100%;
+    max-height:100%;
+}
+
+
+
+
 .recfive {
 	width:200px;
 	height:350px;
@@ -59,6 +84,12 @@ background-image: <img src="reconeimage.jpg">
 	position:relative;
 	right:-67%;
 
+}
+
+.recfive:hover {
+    background: url(quaalude.jpg);
+    max-width:100%;
+    max-height:100%;
 }
 
 .recsix {
@@ -70,6 +101,12 @@ background-image: <img src="reconeimage.jpg">
 
 }
 
+.recsix:hover {
+    background: url(sunset.jpg);
+    max-width:100%;
+    max-height:100%;
+}
+
 .recseven {
 	width:200px;
 	height:350px;
@@ -77,6 +114,12 @@ background-image: <img src="reconeimage.jpg">
 	position:relative;
 	right:-65%;
 
+}
+
+.recseven:hover {
+    background: url(euphoria.jpg);
+    max-width:100%;
+    max-height:100%;
 }
 
 .receight {
@@ -88,65 +131,100 @@ background-image: <img src="reconeimage.jpg">
 
 }
 
+.receight:hover {
+    background: url(weedy.jpg);
+    max-width:100%;
+    max-height:100%;
+}
+
+
+
+
 .recnine {
 	width:200px;
 	height:350px;
-	background:black;
+	background:red;
 	position:relative;
 	right:-70%;
 
 }
+
+.recnine:hover {
+    background: url(mouth.jpg);
+    max-width:100%;
+    max-height:100%;
+}
+
 
 .recten {
 	width:200px;
 	height:350px;
 	background:black;
 	position:relative;
-	right:-47%;
+	right:-40%;
 
 }
+
+
+.recten:hover {
+    background: url(gui.jpg);
+    max-width:100%;
+    max-height:100%;
+}
+
+
 
 .receleven {
 	width:200px;
 	height:350px;
-	background:green;
+	background:black;
 	position:relative;
-	right:-1%;
+	right:-15%;
 
 }
+
+
+
+.receleven:hover {
+    background: url(static.jpg);
+    max-width:100%;
+    max-height:100%;
+}
+
+
 
 .rectwelve {
 	width:200px;
 	height:350px;
-	background:black;
+	background:red;
 	position:relative;
 	right:-30%;
 
 }
 
 .recthirteen {
+	width:290px;
+	height:309px;
+	background:red;
+	position:relative;
+	right:-70%;
+	top:30%;
+
+}
+
+
+
+
+
+
+.rectwenty {
 	width:200px;
 	height:350px;
 	background:black;
 	position:relative;
 	right:-70%;
 
-}
-
-.recfourteen {
-	width:200px;
-	height:350px;
-	background:black;
-	position:relative;
-	right:-35%;
 
 }
 
-.recfifteen {
-	width:200px;
-	height:350px;
-	background:black;
-	position:relative;
-	right:-10%;
 
-}

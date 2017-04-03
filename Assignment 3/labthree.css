@@ -1,0 +1,56 @@
+body {
+background-color:yellow;
+
+}
+
+h1 {
+font-size:100px;
+text-align: center;
+color:white;
+font-family: 'Permanent Marker', cursive;
+}
+
+
+
+h2 {
+text-align: center;
+color:green;
+font-size:70px;
+position:relative;
+top:30%;
+font-family: 'Permanent Marker', cursive;
+}
+
+h2:after{
+  content: url(diamonds.jpg);
+}
+
+p + p {
+
+  color: blue;
+  font-family: futura; 
+
+}
+
+p:hover {
+  color: white;
+  background-color: grey;
+}
+
+
+.one {
+color:red;
+font-family: Futura; 
+text-align: center;
+
+
+}
+
+.zhu {
+    position: absolute;
+    left: 400px;
+    top: 600px;
+
+
+
+}
