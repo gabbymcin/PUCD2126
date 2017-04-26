@@ -1,0 +1,56 @@
+body { 
+    background: linear-gradient(#FF0E0E, #E4E5F2, #041AF6);
+
+
+}
+
+h1 { 
+
+    font-size: 330%;
+    text-align: center;
+    position: centered;
+    font-family: cursive;
+    color: black;
+    letter-spacing: .1em;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+}
+
+h2 {
+
+    color:white;
+    font-size: ;
+    position:relative;
+    top:-123.1%;
+    left:1%;
+    font-family: cursive;
+     opacity: 0.8;
+}
+
+p { 
+	 font-size: 25px;
+     color:white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: cursive;
+    text-align: center;
+
+}
+
+
+    p:hover { 
+    background-color: white;
+}
+
+
+
+
+p:first-child { 
+    text-align: justify;
+    top:-100%;
+ }
+
+
+

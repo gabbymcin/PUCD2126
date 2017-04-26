@@ -1,0 +1,42 @@
+body {
+background-color: pink; 
+
+}
+
+
+h1 {
+color: blue;
+font-size: 100px; 
+text-align: center;   
+
+}
+
+.header {
+background-color:lightblue; 
+position: relative;
+width:1250px;
+height:350px;
+bottom:150px;
+
+}
+
+p { 
+font-size: 150px; 
+float:left;
+color:white;
+font-family: futura; 
+ 
+ }
+
+
+.one {
+	position:center; 
+	color:red;
+	font-size:50px;
+	bottom:70%;
+
+
+}
+
+
+

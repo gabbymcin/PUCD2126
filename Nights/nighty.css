@@ -1,0 +1,26 @@
+
+    body {
+
+      background:black;
+    }
+
+
+@fontface { 
+font-family: 'Rock Salt', cursive;
+ }
+
+h1 {
+
+
+font: normal 55px "Rock Salt", sans-serif; text-align: center; margin: 110px; color: white; 
+
+}
+
+.ntwo {
+    position: absolute;
+    left: 300px;
+    top: 400px;
+    width:600px;
+
+
+}
