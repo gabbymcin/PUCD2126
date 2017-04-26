@@ -40,7 +40,7 @@ p {
 }
 
 
-    p:hover { 
+    p { 
     background-color: white;
 }
 
@@ -52,5 +52,9 @@ p:first-child {
     top:-100%;
  }
 
+li:hover {
+background-color:black;
 
+
+}
 
