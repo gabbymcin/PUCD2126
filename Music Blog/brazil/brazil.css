@@ -1,0 +1,180 @@
+@font-face { 
+    font-family: neonclub; 
+    src: url('neonclub.otf'); 
+  } 
+
+
+
+body {
+background-color: white; 
+margin:0px; 
+}
+
+h2 {
+  text-align: center;
+}
+
+#container-two {
+  padding: 30px 20px;
+  justify-content: center;
+  background: #FFF url(dr.jpg) no-repeat center top;
+
+
+}
+
+.topnav {
+    background-color: green;
+    overflow: hidden;
+    margin:0 auto;
+    position:relative;
+  
+}
+
+.topnav li {
+display: inline; 
+float:left;
+width:30%;
+
+}
+
+.topnav a {
+display:block;
+float:left;
+color:#f2f2f2;
+font-family: Avenir Light;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px
+justify-content: center;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+
+    }
+
+
+#container {
+  padding: 10px 20px;
+  justify-content: center;
+}
+
+.row {
+  
+  text-align: center;
+}
+
+.row a {
+  display: inline-flex;
+  padding:10px 15px;
+  width: 300px;
+  height:250px;
+}
+
+.row img {
+  width:300px;
+}
+
+.imghover {
+  color:white;
+}
+
+
+
+.mahmundihover{
+  color:white;
+}
+
+.mah-title {
+position:absolute;
+top:47%;
+right:57%;
+font-size: 30px;
+font-family: Avenir Light; 
+opacity:0;
+
+}
+
+.mah-title:hover {
+  opacity: 100;
+}
+
+
+
+.sofihover {
+  color:white;
+}
+
+.sofi-title {
+  position:absolute;
+  top:47%;
+  right:29%;
+  font-size: 30px;
+  font-family: Avenir Light;
+  opacity: 0;
+}
+
+.sofi-title:hover {
+opacity: 100;
+
+}
+
+
+
+.jaloohover {
+  color:white;
+}
+
+.jaloo-title {
+  position:absolute;
+  top:87%;
+  right:46%;
+  font-size: 30px;
+  font-family: Avenir Light;
+  opacity: 0;
+}
+
+.jaloo-title:hover {
+opacity: 100;
+}
+
+
+
+
+
+.karolhover {
+  color:white;
+}
+
+.karol-title {
+position: absolute;
+top:125%;
+right:55%;
+font-size: 30px;
+font-family: Avenir Light;
+opacity: 0;
+}
+
+.karol-title:hover {
+  opacity: 100;
+}
+
+
+
+.lucashover {
+  color:white;
+}
+
+.lucas-title {
+  position: absolute;
+  top:125%;
+  right:26%;
+  font-size: 30px;
+  font-family: Avenir Light; 
+  opacity: 0;
+}
+
+.lucas-title:hover {
+  opacity: 100;
+}
