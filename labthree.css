@@ -1,0 +1,54 @@
+body {
+background-color:yellow;
+
+}
+
+h1 {
+font-size:100px;
+text-align: center;
+color:white;
+font-family: 'Permanent Marker', cursive;
+}
+
+
+
+h2 {
+text-align: center;
+color:green;
+font-size:70px;
+position:relative;
+top:30%;
+font-family: 'Permanent Marker', cursive;
+}
+
+p {
+	width:400px;
+	position: relative;
+	left:400px;
+	font-family: futura; 
+}
+
+p:hover {
+  color: white;
+  background-color: green;
+}
+
+
+.one {
+color:red;
+font-family: Futura; 
+
+
+
+}
+
+.zhu {
+	position: relative;
+	left:33%;
+
+}
+
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
