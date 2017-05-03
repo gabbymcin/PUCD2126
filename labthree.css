@@ -21,6 +21,12 @@ top:30%;
 font-family: 'Permanent Marker', cursive;
 }
 
+h1:before,
+h1:after{
+  content: url(heart.png);
+}
+
+
 p {
 	width:400px;
 	position: relative;
@@ -33,13 +39,19 @@ p:hover {
   background-color: green;
 }
 
+p:first-line {
+	color: blue
+}
+
 
 .one {
 color:red;
 font-family: Futura; 
+}
 
-
-
+#container {
+  padding: 10px 20px;
+  justify-content: center;
 }
 
 .zhu {

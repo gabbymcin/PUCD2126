@@ -1,0 +1,181 @@
+@font-face { 
+    font-family: urban; 
+    src: url('urban.ttf'); 
+  }
+
+h1 {
+    font-size: 90px
+
+}
+
+body {
+    background-color:black;
+    margin:0;
+}
+
+p {
+    color:white;
+    font-family: Avenir Light; 
+}
+.title-img {
+
+background-size:100%;
+width:10%;
+height:50px;
+float:left;
+
+}
+
+
+.navbg {
+  background: url('boom.jpg');
+  color: black;
+  text-align: center;
+  height: 49vh;
+  margin: 0px; 
+  background-repeat: repeat;
+  background-size: 50%;
+       position: absolute;
+     top: 0;
+     width: 100%; 
+}
+
+
+.nav {
+  display: flex;
+flex-direction: row; 
+  background-color: black;
+  color: #fff;
+
+}
+
+/*nav word color*/
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/*nav bar hover pseudo-classes*/
+.nav a:hover {
+  color:green;
+}
+
+p:hover {
+  color:green;
+}
+/*pseudo-elements*/
+p:first-letter {color: green; font-size: 50px}
+
+/*combinators*/
+ h1 + a {
+  color:red;
+}
+
+
+
+
+
+#container {
+  padding: 10px 20px;
+  justify-content: center;
+}
+
+.row {
+  
+  text-align: center;
+}
+
+.row a {
+  display: inline-flex;
+  padding:10px 15px;
+  width: 300px;
+  height:250px;
+}
+
+.row img {
+  width:370px;
+  height:350px;
+}
+
+
+#all img{
+  width:400px;
+
+}
+
+
+
+
+
+
+
+
+
+#container {
+  padding: 10px 20px;
+  justify-content: center;
+}
+
+.row {
+  
+  text-align: left;
+}
+
+.row a {
+  display: inline-flex;
+  padding:10px 15px;
+  width: 300px;
+  height:250px;
+}
+
+.row img {
+  width:370px;
+
+}
+
+
+
+#text{
+  float: right;
+}
+
+/*phone*/
+@media (max-width: 599px) {
+
+
+#nav{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}  
+h1 {
+    font-size: 100px
+}
+}
+
+
+
+/* for-tablet-portrait-up */
+@media (min-width: 600px) { 
+
+/*flex-direction: column*/
+#nav{
+  display: flex;
+  flex-direction: column-reverse;
+  list-style: none;
+}
+
+}
+
+/* for-tablet-landscape-up */
+@media (min-width: 900px) { 
+
+/*flex-direction: column*/
+#nav{
+  display: flex;
+  flex-direction: column-reverse;
+  list-style: none;
+}  
+
+}
+
