@@ -1,0 +1,129 @@
+@fon@font-face { 
+    font-family: Adam; 
+    src: url('Adam.otf'); 
+
+  } 
+
+body {
+background-color: white; 
+margin:0px; 
+font-size: 1.6em;
+}
+
+.header {
+  width:100%;
+  position: relative;
+  bottom: 50px;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    background-color: black;
+    background-size: 100%;
+    font-family: Adam;
+
+}
+
+
+.group-container {
+    padding: 10px 20px;
+    /*justify-content: center;*/
+    display: inline-flex;
+    width:97%;
+    justify-content: center;
+}
+
+#left {
+  width: 40%;
+  padding-right: 130px;
+  font-family:Avenir Light;
+  width:350px;
+  text-align:justify; 
+  letter-spacing:.5px;
+}
+
+#text {
+  width:265px;
+  font-size: 12px;
+}
+
+
+
+
+#username {
+font-family: Avenir Bold;
+font-size: 16px;
+
+}
+
+.ratings-list {
+  list-style: none; 
+  font-family: avenir light; 
+}
+
+
+#dateone {
+  font-size: 10px; 
+  position: absolute;
+  bottom:13.3%;
+  left:4%;
+}
+
+#pd {
+  font-size: 13px;
+}
+
+.rating {
+  font-size: 15px;
+
+}
+
+
+
+
+
+
+#texttwo {
+  width:265px;
+  font-size: 12px;
+}
+
+
+#datetwo {
+  font-size: 10px; 
+  position: absolute;
+  bottom:20%;
+  left:4%;
+}
+
+.split-divtwo {
+  position: absolute;
+  bottom: -75%;
+  left:3%; 
+}
+
+
+
+
+
+
+
+#textthree {
+  width:265px;
+  font-size: 12px;
+}
+
+
+#datethree {
+  font-size: 10px; 
+  position: absolute;
+  bottom:20%;
+  left:4%;
+}
+
+.split-divthree {
+  position: absolute;
+  bottom: -125%;
+  left:3%; 
+}

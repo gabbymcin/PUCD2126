@@ -1,115 +1,135 @@
+@font-face { 
+    font-family: urban; 
+    src: url('urbana.ttf'); 
+
+  } 
+
 body {
 background: linear-gradient(white, white, black);
 }
 h1 {
 text-align: center;
+font-family: urban; 
+font-size: 80px; 
 }
 .rectangle {
 width: 200px;
 height: 350px;
-background: black;
+
+background-image:url(recone.jpg)
+
 }
 #rectangle:active {
 width: 70px;
 height: 74px;
-background-image: <img src="reconeimage.jpg">
+background-image: <img src="recone.jpg">
 }
+
+
 .rectwo {
 width:200px;
 height:350px;
 background:black;
 position:relative;
-right:-25%;
+right:-40%;
+background-image:url(rectwo.jpg)
 }
 .recthree {
 width:200px;
 height:350px;
 background:red;
 position:relative;
-right:-55%;
-bottom:1%;
+right:-10%;
+bottom:9%;
+background-image:url(recthree.jpg)
 }
 .recfour {
 width:200px;
 height:350px;
 background:black;
 position:relative;
-right:-20%;
+right:-50%;
+background-image:url(recfour.jpg)
 }
 .recfive {
 width:200px;
 height:350px;
 background:black;
 position:relative;
-right:-67%;
+right:-20%;
+background-image:url(recfive.jpg)
 }
 .recsix {
 width:200px;
 height:350px;
 background:red;
 position:relative;
-right:-30%;
+right:-70%;
+background-image:url(recsix.jpg)
 }
 .recseven {
 width:200px;
 height:350px;
 background:black;
 position:relative;
-right:-65%;
+right:-30%;
+background-image:url(recseven.jpg)
 }
 .receight {
 width:200px;
 height:350px;
 background:black;
 position:relative;
-right:-20%;
+right:-70%;
+background-image:url(recnine.jpg)
 }
 .recnine {
 width:200px;
 height:350px;
 background:black;
 position:relative;
-right:-70%;
+right:-40%;
+background-image:url(receight.jpg)
 }
 .recten {
 width:200px;
 height:350px;
 background:black;
 position:relative;
-right:-47%;
+right:-10%;
+background-image:url(recten.jpg)
 }
 .receleven {
 width:200px;
 height:350px;
 background:green;
 position:relative;
-right:-1%;
+right:-50%;
+background-image:url(receleven.jpg)
 }
 .rectwelve {
 width:200px;
 height:350px;
 background:black;
 position:relative;
-right:-30%;
+right:-20%;
+background-image:url(static.jpg)
 }
 .recthirteen {
 width:200px;
 height:350px;
 background:black;
 position:relative;
-right:-70%;
+right:-60%;
 }
-.recfourteen {
-width:200px;
-height:350px;
-background:black;
-position:relative;
-right:-35%;
+
+a {
+	color:white;
+	font-family: avenir light; 
+	position: relative;
+	top:180px;
+	left:60px;
+	font-size: 30px;
 }
-.recfifteen {
-width:200px;
-height:350px;
-background:black;
-position:relative;
-right:-10%;
-}
+
+
